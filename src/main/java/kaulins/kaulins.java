@@ -4,16 +4,22 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class kaulins {
-    public static void main(String[] args) {
-        int skaitlis, reizes;
+    static void mestKaulinu(int reizes){
+        int skaitlis;
         Random rand = new Random();
+        for(int i
+            = 1; i <= reizes; i++){
+            skaitlis = rand.nextInt(6) + 1;
+            System.out.println("Uzmests skaitlis " + skaitlis);
+        }
+    }
+
+    public static void main(String[] args) {
+        int reizes;
         Scanner scan = new Scanner(System.in);
         System.out.print("Cik reizes metisi: ");
         reizes = scan.nextInt();
-        for(int i = 1; i <= reizes; i++) {
-            skaitlis = rand.nextInt(6)+1;
-            System.out.println("Uzmestais skaitlis"+skaitlis);
-        }
+        mestKaulinu(reizes);
         scan.close();
     }
 }
