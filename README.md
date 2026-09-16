@@ -15,6 +15,6 @@ The project has a trowable dice, which you can throw mutliple times
 
 - [ ] Projektam piesaistīts vēl viens programmētājs, izveidota darba sadarbība
 
-- [ ] Projektā ieviests jauns zars (branch)
+- [x] Projektā ieviests jauns zars (branch)
 
 - [ ] Sapludināti zari un novērsti merge konflikti
