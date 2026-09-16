@@ -11,10 +11,10 @@ The project has a trowable dice, which you can throw mutliple times
 
 - [x] Izveidota GitHub krātuve (repo)
 
-- [ ] Papildināt GitHub krātuves saturu, iegūstot (pull) lokālai lietošanai
+- [x] Papildināt GitHub krātuves saturu, iegūstot (pull) lokālai lietošanai
 
-- [ ] Projektam piesaistīts vēl viens programmētājs, izveidota darba sadarbība
+- [x] Projektam piesaistīts vēl viens programmētājs, izveidota darba sadarbība
 
-- [ ] Projektā ieviests jauns zars (branch)
+- [x] Projektā ieviests jauns zars (branch)
 
-- [ ] Sapludināti zari un novērsti merge konflikti
+- [x] Sapludināti zari un novērsti merge konflikti
