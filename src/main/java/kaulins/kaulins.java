@@ -4,8 +4,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class kaulins {
-    static int mestKaulinu(int reizes){
-        int skaitlis, min = 6;
+    static void mestKaulinu(int reizes){
+        int skaitlis, min = 6, max = 1;
         Random rand = new Random();
         for(int i = 1; i <= reizes; i++) {
             skaitlis = rand.nextInt(6) + 1;
@@ -13,8 +13,12 @@ public class kaulins {
             if(skaitlis < min){
                 min = skaitlis;
             }
+            if(skaitlis > max){
+                max = skaitlis;
+            }
         }
-        return min;
+        System.out.println("Mazakais bija: " + min);
+        System.out.println("Lielakais bija: " + max);
     }
 
     public static void main(String[] args) {
@@ -22,7 +26,7 @@ public class kaulins {
         Scanner scan = new Scanner(System.in);
         System.out.print("Cik reizes metisi: ");
         reizes = scan.nextInt();
-        System.out.print("Mazkais mestais skaitlis:  " + mestKaulinu(reizes));
+        mestKaulinu(reizes);
         scan.close();
     }
 }
